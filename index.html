@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<div lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css" crossorigin="anonymous" />
+  <link href="style.css" rel="stylesheet">
+  <title>Bakery Shop Website</title>
+</head>
+<body>
+  <header class="shop">  
+    <div id="header-image">
+      <div class="item">
+        <img src="./photos/header-shop1.jpg" width="500" height="400" alt="shop1">
+      </div>
+      <div class="item">
+        <img src="./photos/header-shop2.jpg" width="500" height="400" alt="shop2">
+      </div>
+      <div class="item">  
+        <img src="./photos/header-shop3.jpg" width="500" height="400" alt="shop3">
+      </div>
+    </div>
+    <div class="container">
+      <h1 id="title">Welcome to Sweet Cafe!</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, quo!</p>
+      <a href="#about" class="btn">See the Detail</a>
+    </div>
+  </header>
+
+  <div class="container">
+    <h2>Popular Products</h2>
+    <div class="popular-items">
+    <div class="popular-item-container">
+      <div class="popular-item"> 
+        <div class="popular-item-front">
+          <img src="./photos/gelato.jpg" width="400" height="400" alt="gelato" class="item-image">
+          <p class="flip"><i class="fas fa-arrows-alt-h"></i>flip card</p>
+        </div>
+        <div class="popular-item-back">
+          <h4>Item 1</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque officiis doloribus veritatis aliquid placeat, quaerat totam natus perspiciatis quidem labore facere omnis corporis, velit dolorem asperiores nesciunt ratione voluptatem voluptate.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, magni?Lorem ipsum dolor sit, amet consectetur adipisicing elit. In, aperiam?
+          </p>
+        </div>
+      </div>
+      </div>
+      <div class="popular-item-container">
+      <div class="popular-item">  
+        <div class="popular-item-front">
+          <img src="./photos/chocolate-cake.jpg" width="400" height="400" alt="chocolate cake" class="item-image">
+          <p class="flip"><i class="fas fa-arrows-alt-h"></i>flip card</p>
+        </div>
+        <div class="popular-item-back">
+          <h4>Item 2</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque officiis doloribus veritatis aliquid placeat, quaerat totam natus perspiciatis quidem labore facere omnis corporis, velit dolorem asperiores nesciunt ratione voluptatem voluptate.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, magni?Lorem ipsum dolor sit, amet consectetur adipisicing elit. In, aperiam?
+          </p>
+        </div>
+      </div>
+      </div>
+      <div class="popular-item-container">
+      <div class="popular-item">
+        <div class="popular-item-front">
+          <img src="./photos/berry-pie.jpg" width="400" height="400" alt="berry pie" class="item-image">
+          <p class="flip"><i class="fas fa-arrows-alt-h"></i>flip card</p>
+        </div>
+        <div class="popular-item-back">
+          <h4>Item 3</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque officiis doloribus veritatis aliquid placeat, quaerat totam natus perspiciatis quidem labore facere omnis corporis, velit dolorem asperiores nesciunt ratione voluptatem voluptate.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, magni?Lorem ipsum dolor sit, amet consectetur adipisicing elit. In, aperiam?
+          </p>
+        </div>
+      </div>
+    </div>  
+    </div>  
+  </div>  
+</div>
+</div>
+  <div class="container">
+    <h2>Our Products</h2>
+    <div class="product-info">
+      <img src="./photos/donut.jpg" class="product-img" alt="donuts" class="product-img">
+      <h3>Product 1</h3>
+      <p class="product-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae, at illum? Sequi nesciunt ullam esse! Ex nisi fuga natus nesciunt!</p>
+      <a href="#menu-container" class="btn">See Menu</a>
+    </div>
+    <div class="product-info">
+      <img src="./photos/pancake.jpg" class="product-img" alt="pancake" class="product-img">
+      <h3>Product 2</h3>
+      <p class="product-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus corrupti molestias obcaecati aut sit amet culpa, modi quod veritatis deserunt.</p>
+      <a href="#menu-container" class="btn">See Menu</a>
+    </div>
+    <div class="product-info">
+      <img src="./photos/pink-cupcake.jpg" class="product-img" alt="cupcakes" class="product-img">
+      <h3>Product 3</h3>
+      <p class="product-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima unde nam perferendis praesentium sunt! Nobis perferendis cumque praesentium dolorem et!</p>
+      <a href="#menu-container" class="btn">See Menu</a>
+    </div>
+  </div>
+
+  <div class="container">
+    <div id="menu-container">
+    <h2>Our Menu</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, dignissimos adipisci. Similique, temporibus soluta laboriosam officia maxime vero repellendus veniam possimus commodi nam doloremque expedita quas suscipit voluptatem, eius debitis!</p>
+      <a class="btn" onclick="openMenu()">Open Menu</a>
+
+      <div id="menu-images">   
+        <div class="menu">
+          <img src="./photos/menu-1.jpg" id="menu-1" alt="menu-1" class="menu-img">        
+        </div>
+        <div class="menu">
+          <img src="./photos/menu-2.jpg" id="menu-2" alt="menu-2" class="menu-img">
+        </div> 
+        <a id="close" class="btn" onclick="closeMenu()">Close Menu</a>
+      </div>
+    </div>  
+  </div>  
+
+  <div class="container">
+    <div id="about">
+    <h2>About</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, dignissimos adipisci. Similique, temporibus soluta laboriosam officia maxime vero repellendus veniam possimus commodi nam doloremque expedita quas suscipit voluptatem, eius debitis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, dignissimos adipisci. Similique, temporibus soluta laboriosam officia maxime vero repellendus veniam possimus commodi nam doloremque expedita quas suscipit voluptatem, eius debitis!</p>    
+    </div>
+    <div id="info-container">
+      <h3>Store Info</h3>
+      <img src="./photos/location.jpg" id="store" width="400" height="400" alt="store-image">
+      <div class="" style="margin:32px 0">
+        <div class="info"><i class="fas fa-map-marker-alt"></i> xxx 123, US</div>
+        <div class="info"><i class="fas fa-phone"></i> Phone: +1 12345</div>
+        <div class="info"><i class="fas fa-envelope"></i> Email: mail@mail.com</div>
+      </div>
+      <div id="payment">   
+        <p>We accept: <i class="fab fa-cc-visa"></i> <i class="fab fa-cc-paypal"></i> <i class="fab fa-cc-mastercard"></i></p>
+      </div>
+    </div>    
+  
+    <a href="#header-image" class="btn">Back to Top</a>
+
+  <footer>
+    <div id="sns-container">
+      <a href="https://facebook.com" target="_blank" alt="facebook"><i class="fab fa-facebook-square"></i></a>      
+      <a href="https://twitter.com" target="_blank" alt="twitter"><i class="fab fa-twitter"></i></a>      
+      <a href="https://instagram.com" target="_blank" alt="instagram"><i class="fab fa-instagram"></i></a>     
+      <a href="mailto:sweet@email.com" id="email"><i class="fas fa-envelope-square"></i></a>
+    </div>  
+  </footer>
+  <script>
+    function openMenu() {
+      document.getElementById("menu-images").style.display = "block";
+    }
+    
+    function closeMenu() {
+      document.getElementById("menu-images").style.display = "none";
+    }
+    </script>
+</body>
+</html>
